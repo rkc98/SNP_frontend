@@ -1,0 +1,8 @@
+.modal .modal-dialog {
+  max-width: 600px;
+}
+.button {
+  border: none;
+  background: #fff;
+  font-size: 30px;
+}

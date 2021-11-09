@@ -1,0 +1,88 @@
+.container {
+  background: linear-gradient(to right, #063181, #4f6a9b);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+.card {
+  width: 400px;
+  padding: 10px;
+  /* border-radius: 15px; */
+  background: #fff;
+  border: none;
+  height: 400px;
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+}
+
+.mobile-text {
+  /* color: #41464b; */
+  font-size: 18px;
+}
+
+.form-control {
+  margin-right: 12px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ff8880;
+  outline: 0;
+  box-shadow: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.btn {
+  width: 13rem;
+  color: #fff;
+
+  box-shadow: none;
+  padding: 15px;
+  cursor: pointer;
+  border: none !important;
+}
+.btn-otp {
+  background: #1a73e8;
+}
+
+.card2 {
+  width: 50%;
+  background: linear-gradient(135deg, #009ffd, #2a2a72);
+}
+
+@media screen and (max-width: 992px) {
+  .card1 {
+    width: 100%;
+    padding: 40px 30px 10px 30px;
+  }
+
+  .card2 {
+    width: 100%;
+  }
+
+  .right {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px !important;
+  }
+
+  .card2 {
+    padding: 50px;
+  }
+
+  .right {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+}
